@@ -12,9 +12,10 @@
 `plot.png` - график производительности
 # Запуск программы
 
-```bash
 g++ -std=c++11 -O2 -o matrix.exe matrix.cpp
+
 ./matrix.exe
+
 python verify_plot.py
 
 # Результаты экспериментов
